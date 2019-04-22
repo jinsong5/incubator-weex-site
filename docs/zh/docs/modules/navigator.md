@@ -40,7 +40,7 @@ var navigator = weex.requireModule('navigator')
 navigator.pop({
   animated: "true"
 }, event => {
-  console.log('callback: ', event })
+  console.log('callback: ', event )
 })
 ```
 ::: warning 注意
